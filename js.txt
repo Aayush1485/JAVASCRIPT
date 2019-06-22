@@ -1,0 +1,85 @@
+<html>
+<body>
+<h2>SIMPLE INTEREST</h2>
+<p>PROGRAM TO CALCULATE SIMPLE INTEREST</p>
+<p id="demo"></p>
+
+var SIMPLE_INTEREST;
+var principle = 200;
+var rate  = 15;
+var time = 10;
+var result
+myFunction();
+function myFunction()
+{
+document.getElementById("demo").innerHTML = principle*rate*time/100;
+}
+
+https://jsfiddle.net/khw51jax/3/
+assignment  1 
+-----------------------------------------------------------------------------------------------------------
+https://jsfiddle.net/khw51jax/2/ 
+<html>
+<head>
+<body>
+<p id = "demo">   </p>
+</body>
+var student = {
+  firstName: "John",
+  lastName : "Doe",
+  class : "B.E Computer Science"
+  
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+document.getElementById("demo").innerHTML = student.fullName();
+
+second assignment.s 
+https://jsfiddle.net/6s4x2th0/1/
+---------------------------------------------------------------------------------------------------------------------let a =new Date()
+ x =a.getMonth() 
+switch (x) {
+case 0:
+alert( 'jan' );
+break;
+case 1:
+alert( 'feb' );
+break;
+case 2:
+alert( 'march' );
+break;
+case 3:
+alert( 'april' );
+break;
+case 4:
+alert( 'may' );
+break;
+case 5:
+alert( 'june' );
+break;
+case 6:
+alert( 'july' );
+break;
+case 7:
+alert( 'august' );
+break;
+case 8:
+alert( 'september' );
+break;
+case 9:
+alert( 'october' );
+break;
+case 10:
+alert( 'november' );
+break;
+case 11 :
+alert("december");
+break;
+default:
+alert( "I don't know such values" );
+}
+
+ 
+ 
+ assignment 3
