@@ -1,7 +1,7 @@
 <html>
 <body>
 <h2>SIMPLE INTEREST</h2>
-<p>PROGRAM TO CALCULATE SIMPLE INTEREST 1</p>
+<p>PROGRAM TO CALCULATE SIMPLE INTEREST</p>
 <p id="demo"></p>
 
 var SIMPLE_INTEREST;
@@ -14,9 +14,10 @@ function myFunction()
 {
 document.getElementById("demo").innerHTML = principle*rate*time/100;
 }
-
+/*
 https://jsfiddle.net/khw51jax/3/
 assignment  1 
+*/
 -----------------------------------------------------------------------------------------------------------
 https://jsfiddle.net/khw51jax/2/ 
 <html>
@@ -35,9 +36,11 @@ var student = {
 }
 document.getElementById("demo").innerHTML = student.fullName();
 
-second assignment.s 
+/*assignment 1 (2) 
 https://jsfiddle.net/6s4x2th0/1/
----------------------------------------------------------------------------------------------------------------------let a =new Date()
+*/
+---------------------------------------------------------------------------------------------------------------------
+let a =new Date()
  x =a.getMonth() 
 switch (x) {
 case 0:
@@ -82,4 +85,28 @@ alert( "I don't know such values" );
 
  
  
- assignment 3
+ //assignment 2(1)
+----------------------------------------------------------------------------------------------------------------------
+var principle = 6000
+let rate = 7.5
+
+let interestPerYear = 100
+const time = 3
+//first here we calculate the interest based on the value of interest compounded per Year
+var Interest = principle*( Math.pow(1+(rate/interestPerYear),time))
+// here the actual compound interest calculate by deducting principle amount  
+var CI = Interest - principle
+
+                          
+
+
+console.log(Interest)
+console.log(`the compound interset is${Math.floor(CI)}  `)
+
+/*assignment 2(2)
+https://jsfiddle.net/gw2b391r/2/
+*/
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
