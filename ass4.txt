@@ -1,0 +1,19 @@
+var principle = 6000
+let rate = 7.5
+
+let interestPerYear = 100
+const time = 3
+//first here we calculate the interest based on the value of interest compounded per Year
+var Interest = principle*( Math.pow(1+(rate/interestPerYear),time))
+// here the actual compound interest calculate by deducting principle amount  
+var CI = Interest - principle
+
+                          
+
+
+console.log(Interest)
+console.log(`the compound interset is${Math.floor(CI)}  `)
+
+/*assignment 2(2)
+https://jsfiddle.net/gw2b391r/2/
+*/
