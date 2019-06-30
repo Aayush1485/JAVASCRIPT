@@ -1,0 +1,21 @@
+<html>
+<body>
+<h2>SIMPLE INTEREST</h2>
+<p>PROGRAM TO CALCULATE SIMPLE INTEREST</p>
+<p id="demo"></p>
+
+var SIMPLE_INTEREST;
+var principle = 200;
+var rate  = 15;
+var time = 10;
+var result
+myFunction();
+function myFunction()
+{
+document.getElementById("demo").innerHTML = principle*rate*time/100;
+}
+--------------------------------------
+/*
+https://jsfiddle.net/khw51jax/3/
+assignment  1 
+*/
