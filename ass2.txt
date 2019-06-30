@@ -1,0 +1,19 @@
+<html>
+<head>
+<body>
+<p id = "demo">   </p>
+</body>
+var student = {
+  firstName: "John",
+  lastName : "Doe",
+  class : "B.E Computer Science"
+  
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+document.getElementById("demo").innerHTML = student.fullName();
+
+/*assignment 1 (2) 
+https://jsfiddle.net/6s4x2th0/1/
+*/
