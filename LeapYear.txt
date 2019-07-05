@@ -1,0 +1,10 @@
+function leapyear(year)
+{
+return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+alert(leapyear(2016));
+alert(leapyear(2000));
+alert(leapyear(1700));
+alert(leapyear(1800));
+alert(leapyear(100));
+alert(leapyear(2019));
