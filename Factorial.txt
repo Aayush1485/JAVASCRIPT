@@ -1,0 +1,16 @@
+<script>
+
+var x;
+x =prompt("Enter value");
+function factorial(x){
+
+	if(x==0)
+  {
+  	return 1;
+  }
+  else return x*factorial(x-1);
+
+}
+var y = factorial(x);
+document.write("factorial is "+y );
+</script>
